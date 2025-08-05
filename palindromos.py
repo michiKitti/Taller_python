@@ -10,3 +10,9 @@ if es_palindromo(frase):
     print(f"\"{frase}\" es un palíndromo.")
 else:
     print(f"\"{frase}\" no es un palíndromo.")
+"""
+Este programa verifica si una palabra o frase ingresada por el usuario
+es un palíndromo, es decir, si se lee igual de izquierda a derecha que de derecha a izquierda.
+
+No se tienen en cuenta los espacios ni las mayúsculas/minúsculas.
+"""

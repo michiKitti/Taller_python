@@ -1,6 +1,16 @@
 # Diccionario para guardar los contactos
-agenda = {}
+def agregar_contacto(nombre, telefono):
+    """
+    Agrega un nuevo contacto al diccionario de la agenda.
 
+    Parámetros:
+    nombre (str): Nombre del contacto que se desea guardar.
+    telefono (str): Número de teléfono correspondiente al contacto.
+
+    Retorna:
+    None
+    """
+agenda = {}
 
 # Función para añadir un nuevo contacto
 def agregar_contacto(nombre, telefono):

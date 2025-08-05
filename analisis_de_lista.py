@@ -1,5 +1,12 @@
 # Lista para guardar los datos del estudiante
 estudiantes = []
+"""
+Este programa solicita el nombre y tres calificaciones de un estudiante,
+calcula su promedio y muestra un mensaje según su puntaje.
+
+También guarda la información en una lista de estudiantes y la muestra al final.
+"""
+
 
 # Pedir nombre y validarlo
 nombre = input("Ingrese el nombre del estudiante: ")

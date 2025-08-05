@@ -1,3 +1,9 @@
+"""
+Este programa compara dos listas de elementos numéricos y
+muestra cuáles elementos están en ambas, cuáles están solo
+en la primera y cuáles solo en la segunda.
+"""
+
 def comparar_listas(lista1, lista2):
     set1 = set(lista1)
     set2 = set(lista2)

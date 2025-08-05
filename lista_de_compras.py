@@ -1,5 +1,11 @@
 # Inicializamos la lista vacía
 lista_compras = []
+"""
+Este programa permite gestionar una lista de compras de manera interactiva.
+
+El usuario puede agregar ítems, eliminarlos, ver la lista completa o salir.
+Todas las acciones se controlan desde un menú con un bucle while.
+"""
 
 # Menú principal usando un bucle while
 while True:

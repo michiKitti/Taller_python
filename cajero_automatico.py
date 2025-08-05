@@ -1,5 +1,10 @@
 # Saldo inicial del usuario
 saldo = 1000.0
+"""
+Este programa simula un cajero automático simple.
+Permite consultar el saldo, depositar dinero y retirar dinero,
+manejando un saldo inicial fijo para el usuario.
+"""
 
 
 def consultar_saldo():

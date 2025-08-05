@@ -1,4 +1,10 @@
 # Diccionario con factores de conversión (a metros)
+"""
+Este programa convierte una cantidad de una unidad de medida a otra.
+Utiliza un diccionario con factores de conversión para realizar el cálculo.
+El usuario puede ingresar la unidad de origen, la unidad de destino y la cantidad.
+"""
+
 factores_conversion = {
     "metro": 1,
     "centimetro": 0.01,
@@ -18,7 +24,18 @@ def convertir(cantidad, unidad_origen, unidad_destino):
 
     # Convertir la cantidad a metros
     en_metros = cantidad * factores_conversion[unidad_origen]
+    """
+     Convierte una cantidad de una unidad a otra usando un diccionario de factores.
 
+     Parámetros:
+     cantidad (float): Valor numérico que se desea convertir.
+     unidad_origen (str): Unidad original de la cantidad.
+     unidad_destino (str): Unidad a la que se quiere convertir.
+
+     Retorna:
+     float: Valor convertido si las unidades son válidas.
+     str: Mensaje de error si alguna unidad no existe en el diccionario.
+     """
     # Convertir de metros a la unidad de destino
     resultado = en_metros / factores_conversion[unidad_destino]
     return resultado

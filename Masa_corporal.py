@@ -6,3 +6,9 @@ print("Su Altura es"+ str(altura) +"m")
 resultado = (peso+altura)
 print("Su masa Corporal es "+str(resultado)+ " ")
 
+"""
+Este programa calcula el Índice de Masa Corporal (IMC) de una persona.
+
+El usuario debe ingresar su peso en kilogramos y su altura en metros.
+El resultado muestra el IMC redondeado a dos decimales.
+"""

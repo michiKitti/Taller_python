@@ -1,8 +1,17 @@
+"""
+Este programa recibe un texto del usuario y calcula cuántas veces
+aparece cada palabra en ese texto, sin distinguir entre mayúsculas y minúsculas.
+"""
+
 def contar_palabras(texto):
     texto = texto.lower()
     palabras = texto.split()
     frecuencia = {}
+    """
+       Cuenta la frecuencia de cada palabra en un texto.
 
+       Convierte todo el texto a minúsculas, separa las palabras
+       y almacena cuántas veces aparece cada una en un diccionario."""
     for palabra in palabras:
         frecuencia[palabra] = frecuencia.get(palabra, 0) + 1
 

@@ -11,3 +11,7 @@ for caracter in frase.lower():  # Convierte todo a minúsculas
 #resultados
 print("Cantidad de vocales:", vocales)
 print("Cantidad de consonantes:", consonantes)
+"""
+Este programa solicita una frase al usuario y cuenta cuántas vocales
+y cuántas consonantes contiene. No toma en cuenta espacios ni símbolos.
+"""
